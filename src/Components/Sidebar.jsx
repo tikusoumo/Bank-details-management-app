@@ -11,13 +11,13 @@ export default function Sidebar() {
     <>
       <aside
         className={`${
-          isToggleMenu ? "w-[20rem]" : "w-16"
-        } border h-screen`}
+          isToggleMenu ? "w-[20rem]" : "w-0 md:w-16"
+        } border h-screen container transition-all`}
       >
-        <div className="arrow-nav ml-4 py-4">
+        <div className="arrow-nav ml-4 py-4 w-5 hidden md:block">
           <a href="#" onClick={handleMenu}>
             <img
-              className={`transition-all`}
+              className={``}
               src={`./src/assets/${isToggleMenu?"Arrow-nav.svg":"Menu.svg"}`}
             />
           </a>

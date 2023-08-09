@@ -5,9 +5,12 @@ import DashBoard from "../assets/Svg-components/DashBoard";
 import Totm from "../assets/Svg-components/TOTM";
 
 
-export default function Menu() {
+export default function Menu(isToggleMenuNav) {
   return (
     <>
+    <div className={`${
+          isToggleMenuNav ? "h-screen" : "h-0"
+        } container`}>
       <div className="hover:bg-shade-two">
           <a href="#">
             <ul className="flex p-4 items-center justify-between ml-4  hover:text-shade-one">
@@ -67,6 +70,7 @@ export default function Menu() {
               </li>
             </ul>
           </a>
+        </div>
         </div>
     </>
   )

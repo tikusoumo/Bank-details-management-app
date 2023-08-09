@@ -22,6 +22,10 @@ export default {
       },
       lineHeight:{
         "xl": "normal"
+      },
+      screens:{
+        lg: "1056px",
+        md:"704px"
       }
       
     },

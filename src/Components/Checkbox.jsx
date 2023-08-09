@@ -9,7 +9,7 @@ export default function Checkbox({ currentDate, save }) {
   };
   return (
     <>
-      <div className="flex p-4 border border-gray-300 rounded-lg shadow-md w-[30rem] sm:w-[24rem]">
+      <div className="flex p-4 border border-gray-300 rounded-lg shadow-md w-[99%] sm:w-[24rem]">
         <label className="flex">
           <input
             type="checkbox"

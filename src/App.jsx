@@ -6,9 +6,9 @@ import Sidebar from "./Components/Sidebar";
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="flex">
-        {/* <Sidebar /> */}
+        <Sidebar />
         <BankForm />
       </div>
     </>
