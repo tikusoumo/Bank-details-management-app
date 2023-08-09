@@ -1,4 +1,7 @@
 import { useState } from "react";
+
+import ArrowNav from "../assets/Arrow-nav";
+import MenuSvg from "../assets/MenuSvg";
 import Menu from "./Menu";
 
 export default function Sidebar() {
@@ -16,10 +19,9 @@ export default function Sidebar() {
       >
         <div className="arrow-nav ml-4 py-4 w-5 hidden md:block">
           <a href="#" onClick={handleMenu}>
-            <img
-              className={``}
-              src={`./src/assets/${isToggleMenu?"Arrow-nav.svg":"Menu.svg"}`}
-            />
+            
+             {isToggleMenu ? <ArrowNav /> : <MenuSvg />}
+            
           </a>
         </div>
 
