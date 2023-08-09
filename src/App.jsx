@@ -3,6 +3,7 @@ import BankForm from "./Components/BankForm";
 import Navbar from "./Components/Navbar";
 import Sidebar from "./Components/Sidebar";
 
+
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
         <Sidebar /> 
         <BankForm />
       </div>
+
      
     </>
   );

@@ -10,7 +10,7 @@ export default function Menu(isToggleMenuNav) {
     <>
     <div className={`${
           isToggleMenuNav ? "h-screen" : "h-0"
-        } container`}>
+        } container  `}>
       <div className="hover:bg-shade-two">
           <a href="#">
             <ul className="flex p-4 items-center justify-between ml-4  hover:text-shade-one">

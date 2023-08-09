@@ -14,18 +14,18 @@ export default function Sidebar() {
     <>
       <aside
         className={`${
-          isToggleMenu ? "w-[30rem]" : "w-0 md:w-16"
-        } border h-screen container transition-all`}
+          !isToggleMenu ? " w-[25rem]" : "w-16"
+        } border h-[145vh] container transition-all `}
       >
-        <div className="arrow-nav ml-4 py-4 w-5 hidden md:block">
-          <a href="#" onClick={handleMenu}>
+        <div className="arrow-nav mx-4 py-4 w-5 hidden  md:block">
+          <a href="#" onClick={handleMenu} >
             
-             {isToggleMenu ? <ArrowNav /> : <MenuSvg />}
+             {!isToggleMenu ? <ArrowNav /> : <MenuSvg />}
             
           </a>
         </div>
 
-        {isToggleMenu ? <Menu /> : ""}
+        {!isToggleMenu ? <Menu /> : ""}
       </aside>
     </>
   );
