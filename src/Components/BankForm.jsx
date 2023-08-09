@@ -87,7 +87,7 @@ export default function BankForm() {
               type="submit"
               value="Save"
               className={`border w-20 p-2 text-center sm:mr-4 rounded-md bg-shade-one cursor-pointer text-white ${
-                save && inputValue ? "hidden" : ""
+                save ? "hidden" : ""
               }`}
             />
           </div>

@@ -2,9 +2,11 @@ import PropTypes from "prop-types";
 import { useState } from "react";
 export default function TextInput({ placeholder,save }) {
   const [inputValue, setInputValue] = useState("");
+  const [isEmpty, setIsEmpty] = useState(true);
 
   const handleInputChange = (event) => {
     setInputValue(event.target.value);
+
   };
   return (
     <>
@@ -17,6 +19,7 @@ export default function TextInput({ placeholder,save }) {
         value={inputValue}
         onChange={handleInputChange}
         disabled={save&&inputValue}
+        
       />
     </>
   );

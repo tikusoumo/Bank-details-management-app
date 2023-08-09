@@ -14,7 +14,7 @@ export default function Sidebar() {
     <>
       <aside
         className={`${
-          isToggleMenu ? "w-[20rem]" : "w-0 md:w-16"
+          isToggleMenu ? "w-[30rem]" : "w-0 md:w-16"
         } border h-screen container transition-all`}
       >
         <div className="arrow-nav ml-4 py-4 w-5 hidden md:block">

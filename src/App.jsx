@@ -8,9 +8,10 @@ function App() {
     <>
       <Navbar />
       <div className="flex">
-        <Sidebar />
+        <Sidebar /> 
         <BankForm />
       </div>
+     
     </>
   );
 }

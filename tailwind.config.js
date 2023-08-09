@@ -11,7 +11,8 @@ export default {
         "background": "#ffffff",
         "inactive": "#D3D3D3",
         "shade-one": "#2E8362",
-        "shade-two": "#ECF5F1"
+        "shade-two": "#ECF5F1",
+        "shade-three": "#E4F0EB"
       },
       fontFamily:{
         'sans': ['Open Sans'],
