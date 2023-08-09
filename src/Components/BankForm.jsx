@@ -33,7 +33,7 @@ export default function BankForm() {
             repellat possimus illo molestias delectus! Maxime, id!
           </span>
         </div>
-        <form className="container mt-6 border p-5 rounded-lg w-[100%] mr-4 ">
+        <form className="container mt-6 border p-5 rounded-lg w-[80%] ">
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center sm:mr-4">
             
             <label className="font-bold ml-4 " htmlFor="acname">

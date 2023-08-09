@@ -3,6 +3,8 @@ import Menu from "./Menu";
 import MagnifyingGlass from "../assets/MagnifyingGlass";
 import UserCircle from "../assets/UserCircle";
 import BellRinging from "../assets/BellRinging";
+import ArrowNav from "../assets/Arrow-nav";
+import MenuSvg from "../assets/MenuSvg";
 export default function Navbar() {
   const [isToggleMenuNav, setIsToggleMenuNav] = useState(false);
 
@@ -12,10 +14,10 @@ export default function Navbar() {
   return (
     <>
       <nav className="flex justify-between text-xl font-bold font-sans h-16 ml-4 items-end border-b">
-      <img    onClick={handleMenu}
-              className={`transition-all block sm:hidden pb-2 w-8`}
-              src={`./src/assets/${isToggleMenuNav?"Arrow-nav.svg":"Menu.svg"}`}
-            />
+        <a onClick={handleMenu} className={`transition-all block sm:hidden pb-2 w-8`} href="#">
+
+      {isToggleMenuNav ? <ArrowNav /> : <MenuSvg />}
+        </a>
         <div className="logo pb-2 hidden sm:inline">Logo</div>
         <div className="navigation hidden lg:flex">
           <ul className="flex ">
