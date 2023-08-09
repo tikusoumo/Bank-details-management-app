@@ -1,5 +1,8 @@
 import { useState } from "react";
 import Menu from "./Menu";
+import MagnifyingGlass from "../assets/MagnifyingGlass";
+import UserCircle from "../assets/UserCircle";
+import BellRinging from "../assets/BellRinging";
 export default function Navbar() {
   const [isToggleMenuNav, setIsToggleMenuNav] = useState(false);
 
@@ -35,13 +38,14 @@ export default function Navbar() {
         </div>
         <div className="utils  mr-6 pb-2 hidden sm:flex">
           <button className="Search ">
-            <img src="./src/assets/MagnifyingGlass.svg" />
+            
+            <MagnifyingGlass/>
           </button>
           <button className="Notification mx-10">
-            <img src="./src/assets/BellRinging.svg" />
+            <BellRinging/>
           </button>
           <button className="Profile ">
-            <img src="./src/assets/UserCircle.svg" />
+           <UserCircle/>
           </button>
         </div>
       </nav>
