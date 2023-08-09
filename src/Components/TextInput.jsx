@@ -12,7 +12,7 @@ export default function TextInput({ placeholder,save }) {
     }
 
   };
-  console.log(isEmpty);
+
   return (
     <>
       <input

@@ -18,7 +18,7 @@ export default function BankForm() {
 
   return (
     <>
-      <div className="flex flex-col m-5 sm:m-10 ">
+      <div className="flex flex-col m-5 sm:m-10 sm:mr-40">
         <div className="container w-[100%]">
           <div className="title font-sans-serif font-medium text-4xl leading-normal">
             Update Bank Details

@@ -26,9 +26,9 @@ export default function Menu(isToggleMenuNav) {
             </ul>
           </a>
         </div>
-        <div className="hover:bg-shade-two">
+        <div className="hover:bg-shade-two ">
           <a href="#">
-            <ul className="flex p-4 items-center justify-between ml-4 hover:text-shade-one hover:bg-shade-two">
+            <ul className="flex p-4 items-center justify-between ml-4 hover:text-shade-one hover:bg-shade-two ">
               <div className="flex items-center">
                 <li>
                   <Totm />

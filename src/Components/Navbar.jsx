@@ -1,10 +1,10 @@
 import { useState } from "react";
 import Menu from "./Menu";
-import MagnifyingGlass from "../assets/MagnifyingGlass";
-import UserCircle from "../assets/UserCircle";
-import BellRinging from "../assets/BellRinging";
-import ArrowNav from "../assets/Arrow-nav";
-import MenuSvg from "../assets/MenuSvg";
+import MagnifyingGlass from "../assets/Svg-components/MagnifyingGlass";
+import UserCircle from "../assets/Svg-components/UserCircle";
+import BellRinging from "../assets/Svg-components/BellRinging";
+import ArrowNav from "../assets/Svg-components/Arrow-nav";
+import MenuSvg from "../assets/Svg-components/MenuSvg";
 export default function Navbar() {
   const [isToggleMenuNav, setIsToggleMenuNav] = useState(false);
 
