@@ -6,13 +6,19 @@ export default function TextInput({ placeholder,save }) {
 
   const handleInputChange = (event) => {
     setInputValue(event.target.value);
+    if(inputValue.length===0){
+
+      setIsEmpty(!isEmpty)
+    }
 
   };
+  console.log(isEmpty);
   return (
     <>
       <input
         type="text"
         placeholder={placeholder}
+        
         className={`p-2 border rounded-lg my-4 sm:w-[24rem] ${
           inputValue ? "bg-shade-two" : "border-gray-300"
         } transition-colors duration-300 `}

@@ -86,9 +86,7 @@ export default function BankForm() {
               onClick={handleButtonClick}
               type="submit"
               value="Save"
-              className={`border w-20 p-2 text-center sm:mr-4 rounded-md bg-shade-one cursor-pointer text-white ${
-                save ? "hidden" : ""
-              }`}
+              className={`border w-20 p-2 text-center sm:mr-4 rounded-md bg-shade-one cursor-pointer text-white `}
             />
           </div>
         </form>
@@ -96,8 +94,8 @@ export default function BankForm() {
           THE ABOVE DETAILS ARE FINAL AND WILL BE USED FOR PAYMENT. IF ANY OF
           THESE DETAILS ARE WRONG, PLEASE CONTACT YOUR MANAGER IMMEDIATELY! ALSO
           EMAIL THE SAME TO ACCOUNTS@EXAMBAZAAR.COM!
-          <div className="border m-4 bg-primary-text"></div>
         </span>
+          <div className="border m-4 bg-primary-text"></div>
       </div>
     </>
   );
