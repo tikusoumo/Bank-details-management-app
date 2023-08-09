@@ -33,7 +33,7 @@ export default function BankForm() {
             repellat possimus illo molestias delectus! Maxime, id!
           </span>
         </div>
-        <form className="container mt-6 border p-5 rounded-lg w-[80%] ">
+        <form className="container mt-6 border p-5 rounded-lg w-[100%]">
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center sm:mr-4">
             
             <label className="font-bold ml-4 " htmlFor="acname">
@@ -99,6 +99,7 @@ export default function BankForm() {
           THE ABOVE DETAILS ARE FINAL AND WILL BE USED FOR PAYMENT. IF ANY OF
           THESE DETAILS ARE WRONG, PLEASE CONTACT YOUR MANAGER IMMEDIATELY! ALSO
           EMAIL THE SAME TO ACCOUNTS@EXAMBAZAAR.COM!
+        <div className="border m-4 bg-primary-text"></div>
         </span>
       </div>
     </>
