@@ -86,7 +86,7 @@ export default function BankForm() {
               onClick={handleButtonClick}
               type="submit"
               value="Save"
-              className={`border w-20 p-2 text-center sm:mr-4 rounded-md bg-shade-one cursor-pointer text-white `}
+              className={`border w-20 p-2 text-center sm:mr-4 rounded-md bg-shade-one cursor-pointer text-white ${save?"hidden":""}`}
             />
           </div>
         </form>
