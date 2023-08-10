@@ -16,7 +16,7 @@ export default function TextInput({ placeholder, save }) {
       <input
         type="text"
         placeholder={placeholder}
-        className={`p-2 border rounded-lg my-4 sm:w-[24rem] ${
+        className={`p-2 border rounded-lg my-2 sm:w-[24rem] ${
           inputValue ? "bg-shade-two" : "border-gray-300"
         } transition-colors duration-300 `}
         value={inputValue}

@@ -77,7 +77,7 @@ export default function BankForm() {
             <label className="font-bold ml-4 mb-4" htmlFor="consent">
               CONSENT
             </label>
-            <div className="mb-4 sm:mr-4">
+            <div className="mb-2 sm:mr-4">
               <Checkbox currentDate={currentDate} save={save} />
             </div>
           </div>
