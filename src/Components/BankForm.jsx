@@ -1,5 +1,5 @@
-import Checkbox from "./Checkbox";
-import TextInput from "./TextInput";
+import TextInput from "./Utilities/TextInput";
+import Checkbox from "./Utilities/Checkbox";
 import { useState } from "react";
 
 export default function BankForm() {
@@ -18,7 +18,7 @@ export default function BankForm() {
 
   return (
     <>
-      <div className="flex flex-col m-5 sm:m-10 sm:mr-40">
+      <div className="flex flex-col m-5 sm:m-10 sm:mr-40 sm:pl-5">
         <div className="container w-[100%]">
           <div className="title font-sans-serif font-medium text-4xl leading-normal">
             Update Bank Details
@@ -74,7 +74,7 @@ export default function BankForm() {
             <TextInput placeholder="Relation with Account Holder" save={save} />
           </div>
           <div className="flex flex-col sm:flex-row sm:justify-between">
-            <label className="font-bold ml-4 mb-4" htmlFor="acname">
+            <label className="font-bold ml-4 mb-4" htmlFor="consent">
               CONSENT
             </label>
             <div className="mb-4 sm:mr-4">
@@ -95,7 +95,7 @@ export default function BankForm() {
           THESE DETAILS ARE WRONG, PLEASE CONTACT YOUR MANAGER IMMEDIATELY! ALSO
           EMAIL THE SAME TO ACCOUNTS@EXAMBAZAAR.COM!
         </span>
-          <div className="border m-4 bg-primary-text"></div>
+        <div className="border m-4 bg-primary-text"></div>
       </div>
     </>
   );

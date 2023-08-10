@@ -1,16 +1,17 @@
-import Arrow from "../assets/Svg-components/Arrow";
-import Bank from "../assets/Svg-components/Bank";
-import DailySum from "../assets/Svg-components/DailySum";
-import DashBoard from "../assets/Svg-components/DashBoard";
-import Totm from "../assets/Svg-components/TOTM";
+import Arrow from "../../assets/Svg-components/Arrow";
+import Bank from "../../assets/Svg-components/Bank"
+import DailySum from "../../assets/Svg-components/DailySum";
+import DashBoard from "../../assets/Svg-components/DashBoard";
+import Totm from "../../assets/Svg-components/TOTM";
 
 
 export default function Menu(isToggleMenuNav) {
   return (
     <>
     <div className={`${
-          isToggleMenuNav ? "h-screen" : "h-0"
-        } container  `}>
+          isToggleMenuNav ? "h-screen " : " w-0"
+        } container `}>
+     
       <div className="hover:bg-shade-two">
           <a href="#">
             <ul className="flex p-4 items-center justify-between ml-4  hover:text-shade-one">
@@ -72,6 +73,7 @@ export default function Menu(isToggleMenuNav) {
           </a>
         </div>
         </div>
+        
     </>
   )
 

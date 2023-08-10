@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Menu from "./Menu";
+import Menu from "./Utilities/Menu";
 import MagnifyingGlass from "../assets/Svg-components/MagnifyingGlass";
 import UserCircle from "../assets/Svg-components/UserCircle";
 import BellRinging from "../assets/Svg-components/BellRinging";
